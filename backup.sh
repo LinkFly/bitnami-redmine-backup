@@ -10,5 +10,6 @@ cd "$installdir"
 ./ctlscript.sh stop
 tar -czvf "$backup_archive" "$installdir"
 ./ctlscript.sh start
+./del-old.sh "$backup_dir" $backup_max
 
 
