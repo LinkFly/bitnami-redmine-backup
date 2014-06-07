@@ -1,1 +1,1 @@
-*/12 * * * * /opt/backup-bitnami-redmine.sh
+0 6 * * * /opt/bitnami-redmine-backup/backup.sh
